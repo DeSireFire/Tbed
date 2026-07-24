@@ -28,8 +28,7 @@ public class NetWorkTools {
         } catch (MalformedObjectNameException e) {
             e.printStackTrace();
         }
-        String port = objectNames.iterator().next().getKeyProperty("port");
-        return port;
+        return objectNames.iterator().next().getKeyProperty("port");
     }
 
     /**
